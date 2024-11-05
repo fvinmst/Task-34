@@ -1,0 +1,71 @@
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kontainer untuk form */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Judul dan label form */
+.container h2 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    color: #333;
+}
+
+/* Input dan textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75rem 0;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #3a1078;
+    background-color: #ffffff;
+}
+
+/* Tombol submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3a1078; /* Warna ungu sesuai keinginan Anda */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1.5rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #4b1d94; /* Sedikit lebih gelap saat di-hover */
+}
